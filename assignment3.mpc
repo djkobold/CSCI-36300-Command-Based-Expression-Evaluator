@@ -1,0 +1,52 @@
+// assignment3.mpc dkobold
+
+project (assignment3) {
+  exename = assignment3
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+  
+  Header_Files {
+	Calculator.h
+	Array_Base.h
+	Array.h
+	Stack.h
+	Expr_Command.h
+	Binary_Op_Command.h
+	Expr_Command_Factory.h
+	Stack_Expr_Factory.h
+	Add_Command.h
+	Subtract_Command.h
+	Multiply_Command.h
+	Divide_Command.h
+	Modulo_Command.h
+	Num_Command.h
+	Expr_Command_Iterator.h
+	Parentheses_Command.h
+  }
+
+  Source_Files {
+    driver.cpp
+  }
+
+  Template_Files {
+	Calculator.cpp
+    Array_Base.cpp
+	Array.cpp
+    Stack.cpp
+	Binary_Op_Command.cpp
+	Expr_Command_Factory.cpp
+	Stack_Expr_Factory.h
+	Add_Command.cpp
+	Subtract_Command.cpp
+	Multiply_Command.cpp
+	Divide_Command.cpp
+	Modulo_Command.cpp
+	Num_Command.cpp
+	Expr_Command_Iterator.cpp
+	Parentheses_Command.cpp
+	
+  }
+}

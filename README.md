@@ -1,2 +1,2 @@
-# CSCI-36300-Just-Stack-It-Next-To-Me
-(Fall 2018) Project 3 for Principles of Software Design
+# cs363-fall2018-assignment3
+CSCI 36300 Programming Assignment 3: Just "Stack" It Next to Me
